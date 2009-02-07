@@ -1,0 +1,66 @@
+#!/usr/bin/echoclone
+#
+# This is a comment.
+#
+# This file is a sample level definition file
+#
+# This line tells the parser our file is a valid level
+ECHO CLONE LEVEL VERSION 1
+
+# Name and Author of the level
+LEVEL A1
+AUTHOR gigaherz
+
+# Note: In the current version of the loader, levels > 16x16x16 are NOT supported and WILL crash the loader!
+#       Never use numbers >15 or <0 in START, TARGET or CELL!
+
+# Start location and direction
+START 0 0 5 3
+
+# Initial camera angles
+CAMERA 225 64
+LIMITS 0 360 5 80 
+
+# Location of the "echos" to reach, the fourth number tells
+# how many other echos are required before this echo appears on the screen.
+TARGET 0 0 0 0
+TARGET 4 0 0 1
+TARGET 4 3 4 2
+TARGET 0 0 5 3
+
+# Grid pieces. Foruth number flags the type of grid piece:
+#  0 = missing (default when no CELL is specified for the location)
+#  1 = normal
+#  2 = hole
+#  3 = jump pad
+#  4 = staircase (back-up)
+#  5 = staircase (front-up)
+#  6 = staircase (right-up)
+#  7 = staircase (left-up)
+#  ... more?
+CELL 0 0 0 1
+CELL 0 0 1 1
+CELL 0 0 2 1
+CELL 0 0 3 2
+CELL 0 0 4 1
+CELL 0 0 5 1
+
+CELL 1 0 0 1
+CELL 3 0 0 1
+CELL 4 0 0 1
+CELL 5 0 0 1
+
+CELL 5 1 1 5
+CELL 5 2 2 5
+CELL 5 3 3 5
+
+CELL 5 3 4 1
+CELL 4 3 4 1
+CELL 3 3 4 1
+
+CELL 3 0 2 1
+CELL 3 1 2 1
+CELL 3 2 2 1
+CELL 3 3 2 1
+CELL 3 4 2 1
+CELL 3 5 2 1
