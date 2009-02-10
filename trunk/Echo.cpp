@@ -542,102 +542,102 @@ void DrawCubicPiece(int neighbors[6],int adjacent[6], GLfloat x, GLfloat y, GLfl
 	else if (type==2)
 	{
 		glBegin(GL_QUADS);
-			glVertex3f( 0.0,-1.0,-0.9);
-			glVertex3f( 0.0, 1.0,-0.9);
-			glVertex3f(-0.6,-1.0,-0.6);
-			glVertex3f(-0.6, 1.0,-0.6);
-			glVertex3f(-0.6,-1.0,-0.6);
-			glVertex3f(-0.6, 1.0,-0.6);
-			glVertex3f(-0.9,-1.0, 0.0);
-			glVertex3f(-0.9, 1.0, 0.0);
-			glVertex3f(-0.9,-1.0, 0.0);
-			glVertex3f(-0.9, 1.0, 0.0);
-			glVertex3f(-0.6,-1.0, 0.6);
-			glVertex3f(-0.6, 1.0, 0.6);
-			glVertex3f(-0.6,-1.0, 0.6);
-			glVertex3f(-0.6, 1.0, 0.6);
-			glVertex3f( 0.0,-1.0, 0.9);
-			glVertex3f( 0.0, 1.0, 0.9);
-			glVertex3f( 0.0,-1.0, 0.9);
-			glVertex3f( 0.0, 1.0, 0.9);
-			glVertex3f( 0.6,-1.0, 0.6);
-			glVertex3f( 0.6, 1.0, 0.6);
-			glVertex3f( 0.6,-1.0, 0.6);
-			glVertex3f( 0.6, 1.0, 0.6);
-			glVertex3f( 0.9,-1.0, 0.0);
-			glVertex3f( 0.9, 1.0, 0.0);
-			glVertex3f( 0.9,-1.0, 0.0);
-			glVertex3f( 0.9, 1.0, 0.0);
-			glVertex3f( 0.6,-1.0,-0.6);
-			glVertex3f( 0.6, 1.0,-0.6);
-			glVertex3f( 0.6,-1.0,-0.6);
-			glVertex3f( 0.6, 1.0,-0.6);
-			glVertex3f( 0.0,-1.0,-0.9);
-			glVertex3f( 0.0, 1.0,-0.9);
-			glVertex3f( 1.0,-1.0,-0.0);
-			glVertex3f( 1.0,-1.0,-1.0);
-			glVertex3f( 0.6,-1.0,-0.6);
-			glVertex3f( 0.9,-1.0,-0.0);
-			glVertex3f( 1.0,-1.0, 1.0);
-			glVertex3f( 1.0,-1.0,-0.0);
-			glVertex3f( 0.9,-1.0,-0.0);
-			glVertex3f( 0.6,-1.0, 0.6);
-			glVertex3f( 0.0,-1.0, 1.0);
-			glVertex3f( 1.0,-1.0, 1.0);
-			glVertex3f( 0.6,-1.0, 0.6);
-			glVertex3f( 0.0,-1.0, 0.9);
-			glVertex3f(-1.0,-1.0, 1.0);
-			glVertex3f( 0.0,-1.0, 1.0);
-			glVertex3f( 0.0,-1.0, 0.9);
-			glVertex3f(-0.6,-1.0, 0.6);
-			glVertex3f(-1.0,-1.0,-0.0);
-			glVertex3f(-1.0,-1.0, 1.0);
-			glVertex3f(-0.6,-1.0, 0.6);
-			glVertex3f(-0.9,-1.0,-0.0);
-			glVertex3f(-1.0,-1.0,-1.0);
-			glVertex3f(-1.0,-1.0,-0.0);
-			glVertex3f(-0.9,-1.0,-0.0);
-			glVertex3f(-0.6,-1.0,-0.6);
-			glVertex3f( 0.0,-1.0,-1.0);
-			glVertex3f(-1.0,-1.0,-1.0);
-			glVertex3f(-0.6,-1.0,-0.6);
-			glVertex3f( 0.0,-1.0,-0.9);
-			glVertex3f( 1.0,-1.0,-1.0);
-			glVertex3f( 0.0,-1.0,-1.0);
-			glVertex3f( 0.0,-1.0,-0.9);
-			glVertex3f( 0.6,-1.0,-0.6);
-			glVertex3f(-1.0, 1.0,-0.0);
-			glVertex3f(-1.0, 1.0,-1.0);
-			glVertex3f(-0.6, 1.0,-0.6);
-			glVertex3f(-0.9, 1.0,-0.0);
-			glVertex3f(-1.0, 1.0, 1.0);
-			glVertex3f(-1.0, 1.0,-0.0);
-			glVertex3f(-0.9, 1.0,-0.0);
-			glVertex3f(-0.6, 1.0, 0.6);
-			glVertex3f( 0.0, 1.0, 1.0);
-			glVertex3f(-1.0, 1.0, 1.0);
-			glVertex3f(-0.6, 1.0, 0.6);
-			glVertex3f( 0.0, 1.0, 0.9);
-			glVertex3f( 1.0, 1.0, 1.0);
-			glVertex3f( 0.0, 1.0, 1.0);
-			glVertex3f( 0.0, 1.0, 0.9);
-			glVertex3f( 0.6, 1.0, 0.6);
-			glVertex3f( 1.0, 1.0,-0.0);
-			glVertex3f( 1.0, 1.0, 1.0);
-			glVertex3f( 0.6, 1.0, 0.6);
-			glVertex3f( 0.9, 1.0,-0.0);
-			glVertex3f( 1.0, 1.0,-1.0);
-			glVertex3f( 1.0, 1.0,-0.0);
-			glVertex3f( 0.9, 1.0,-0.0);
-			glVertex3f( 0.6, 1.0,-0.6);
-			glVertex3f( 0.0, 1.0,-1.0);
-			glVertex3f( 1.0, 1.0,-1.0);
-			glVertex3f( 0.6, 1.0,-0.6);
-			glVertex3f( 0.0, 1.0,-0.9);
-			glVertex3f(-1.0, 1.0,-1.0);
-			glVertex3f( 0.0, 1.0,-1.0);
-			glVertex3f( 0.0, 1.0,-0.9);
-			glVertex3f(-0.6, 1.0,-0.6);
+			glVertex3f( 0.0f,-1.0f,-0.9f);
+			glVertex3f( 0.0f, 1.0f,-0.9f);
+			glVertex3f(-0.6f,-1.0f,-0.6f);
+			glVertex3f(-0.6f, 1.0f,-0.6f);
+			glVertex3f(-0.6f,-1.0f,-0.6f);
+			glVertex3f(-0.6f, 1.0f,-0.6f);
+			glVertex3f(-0.9f,-1.0f, 0.0f);
+			glVertex3f(-0.9f, 1.0f, 0.0f);
+			glVertex3f(-0.9f,-1.0f, 0.0f);
+			glVertex3f(-0.9f, 1.0f, 0.0f);
+			glVertex3f(-0.6f,-1.0f, 0.6f);
+			glVertex3f(-0.6f, 1.0f, 0.6f);
+			glVertex3f(-0.6f,-1.0f, 0.6f);
+			glVertex3f(-0.6f, 1.0f, 0.6f);
+			glVertex3f( 0.0f,-1.0f, 0.9f);
+			glVertex3f( 0.0f, 1.0f, 0.9f);
+			glVertex3f( 0.0f,-1.0f, 0.9f);
+			glVertex3f( 0.0f, 1.0f, 0.9f);
+			glVertex3f( 0.6f,-1.0f, 0.6f);
+			glVertex3f( 0.6f, 1.0f, 0.6f);
+			glVertex3f( 0.6f,-1.0f, 0.6f);
+			glVertex3f( 0.6f, 1.0f, 0.6f);
+			glVertex3f( 0.9f,-1.0f, 0.0f);
+			glVertex3f( 0.9f, 1.0f, 0.0f);
+			glVertex3f( 0.9f,-1.0f, 0.0f);
+			glVertex3f( 0.9f, 1.0f, 0.0f);
+			glVertex3f( 0.6f,-1.0f,-0.6f);
+			glVertex3f( 0.6f, 1.0f,-0.6f);
+			glVertex3f( 0.6f,-1.0f,-0.6f);
+			glVertex3f( 0.6f, 1.0f,-0.6f);
+			glVertex3f( 0.0f,-1.0f,-0.9f);
+			glVertex3f( 0.0f, 1.0f,-0.9f);
+			glVertex3f( 1.0f,-1.0f,-0.0f);
+			glVertex3f( 1.0f,-1.0f,-1.0f);
+			glVertex3f( 0.6f,-1.0f,-0.6f);
+			glVertex3f( 0.9f,-1.0f,-0.0f);
+			glVertex3f( 1.0f,-1.0f, 1.0f);
+			glVertex3f( 1.0f,-1.0f,-0.0f);
+			glVertex3f( 0.9f,-1.0f,-0.0f);
+			glVertex3f( 0.6f,-1.0f, 0.6f);
+			glVertex3f( 0.0f,-1.0f, 1.0f);
+			glVertex3f( 1.0f,-1.0f, 1.0f);
+			glVertex3f( 0.6f,-1.0f, 0.6f);
+			glVertex3f( 0.0f,-1.0f, 0.9f);
+			glVertex3f(-1.0f,-1.0f, 1.0f);
+			glVertex3f( 0.0f,-1.0f, 1.0f);
+			glVertex3f( 0.0f,-1.0f, 0.9f);
+			glVertex3f(-0.6f,-1.0f, 0.6f);
+			glVertex3f(-1.0f,-1.0f,-0.0f);
+			glVertex3f(-1.0f,-1.0f, 1.0f);
+			glVertex3f(-0.6f,-1.0f, 0.6f);
+			glVertex3f(-0.9f,-1.0f,-0.0f);
+			glVertex3f(-1.0f,-1.0f,-1.0f);
+			glVertex3f(-1.0f,-1.0f,-0.0f);
+			glVertex3f(-0.9f,-1.0f,-0.0f);
+			glVertex3f(-0.6f,-1.0f,-0.6f);
+			glVertex3f( 0.0f,-1.0f,-1.0f);
+			glVertex3f(-1.0f,-1.0f,-1.0f);
+			glVertex3f(-0.6f,-1.0f,-0.6f);
+			glVertex3f( 0.0f,-1.0f,-0.9f);
+			glVertex3f( 1.0f,-1.0f,-1.0f);
+			glVertex3f( 0.0f,-1.0f,-1.0f);
+			glVertex3f( 0.0f,-1.0f,-0.9f);
+			glVertex3f( 0.6f,-1.0f,-0.6f);
+			glVertex3f(-1.0f, 1.0f,-0.0f);
+			glVertex3f(-1.0f, 1.0f,-1.0f);
+			glVertex3f(-0.6f, 1.0f,-0.6f);
+			glVertex3f(-0.9f, 1.0f,-0.0f);
+			glVertex3f(-1.0f, 1.0f, 1.0f);
+			glVertex3f(-1.0f, 1.0f,-0.0f);
+			glVertex3f(-0.9f, 1.0f,-0.0f);
+			glVertex3f(-0.6f, 1.0f, 0.6f);
+			glVertex3f( 0.0f, 1.0f, 1.0f);
+			glVertex3f(-1.0f, 1.0f, 1.0f);
+			glVertex3f(-0.6f, 1.0f, 0.6f);
+			glVertex3f( 0.0f, 1.0f, 0.9f);
+			glVertex3f( 1.0f, 1.0f, 1.0f);
+			glVertex3f( 0.0f, 1.0f, 1.0f);
+			glVertex3f( 0.0f, 1.0f, 0.9f);
+			glVertex3f( 0.6f, 1.0f, 0.6f);
+			glVertex3f( 1.0f, 1.0f,-0.0f);
+			glVertex3f( 1.0f, 1.0f, 1.0f);
+			glVertex3f( 0.6f, 1.0f, 0.6f);
+			glVertex3f( 0.9f, 1.0f,-0.0f);
+			glVertex3f( 1.0f, 1.0f,-1.0f);
+			glVertex3f( 1.0f, 1.0f,-0.0f);
+			glVertex3f( 0.9f, 1.0f,-0.0f);
+			glVertex3f( 0.6f, 1.0f,-0.6f);
+			glVertex3f( 0.0f, 1.0f,-1.0f);
+			glVertex3f( 1.0f, 1.0f,-1.0f);
+			glVertex3f( 0.6f, 1.0f,-0.6f);
+			glVertex3f( 0.0f, 1.0f,-0.9f);
+			glVertex3f(-1.0f, 1.0f,-1.0f);
+			glVertex3f( 0.0f, 1.0f,-1.0f);
+			glVertex3f( 0.0f, 1.0f,-0.9f);
+			glVertex3f(-0.6f, 1.0f,-0.6f);
 		glEnd();
 	}
 	glBegin(GL_QUADS);
@@ -793,63 +793,63 @@ void DrawCubicPiece(int neighbors[6],int adjacent[6], GLfloat x, GLfloat y, GLfl
 	else if(type==2)
 	{
 		glBegin(GL_LINES);
-			glVertex3f( 0.00,-1,-0.89);
-			glVertex3f( 0.59,-1,-0.59);
-			glVertex3f( 0.59,-1,-0.59);
-			glVertex3f( 0.89,-1, 0.00);
-			glVertex3f( 0.89,-1, 0.00);
-			glVertex3f( 0.59,-1, 0.59);
-			glVertex3f( 0.59,-1, 0.59);
-			glVertex3f( 0.00,-1, 0.89);
-			glVertex3f( 0.00,-1, 0.89);
-			glVertex3f(-0.59,-1, 0.59);
-			glVertex3f(-0.59,-1, 0.59);
-			glVertex3f(-0.89,-1, 0.00);
-			glVertex3f(-0.89,-1, 0.00);
-			glVertex3f(-0.59,-1,-0.59);
-			glVertex3f(-0.59,-1,-0.59);
-			glVertex3f( 0.00,-1,-0.89);
+			glVertex3f( 0.00f,-1.00f,-0.89f);
+			glVertex3f( 0.59f,-1.00f,-0.59f);
+			glVertex3f( 0.59f,-1.00f,-0.59f);
+			glVertex3f( 0.89f,-1.00f, 0.00f);
+			glVertex3f( 0.89f,-1.00f, 0.00f);
+			glVertex3f( 0.59f,-1.00f, 0.59f);
+			glVertex3f( 0.59f,-1.00f, 0.59f);
+			glVertex3f( 0.00f,-1.00f, 0.89f);
+			glVertex3f( 0.00f,-1.00f, 0.89f);
+			glVertex3f(-0.59f,-1.00f, 0.59f);
+			glVertex3f(-0.59f,-1.00f, 0.59f);
+			glVertex3f(-0.89f,-1.00f, 0.00f);
+			glVertex3f(-0.89f,-1.00f, 0.00f);
+			glVertex3f(-0.59f,-1.00f,-0.59f);
+			glVertex3f(-0.59f,-1.00f,-0.59f);
+			glVertex3f( 0.00f,-1.00f,-0.89f);
 
-			glVertex3f( 0.00,1,-0.89);
-			glVertex3f( 0.59,1,-0.59);
-			glVertex3f( 0.59,1,-0.59);
-			glVertex3f( 0.89,1, 0.00);
-			glVertex3f( 0.89,1, 0.00);
-			glVertex3f( 0.59,1, 0.59);
-			glVertex3f( 0.59,1, 0.59);
-			glVertex3f( 0.00,1, 0.89);
-			glVertex3f( 0.00,1, 0.89);
-			glVertex3f(-0.59,1, 0.59);
-			glVertex3f(-0.59,1, 0.59);
-			glVertex3f(-0.89,1, 0.00);
-			glVertex3f(-0.89,1, 0.00);
-			glVertex3f(-0.59,1,-0.59);
-			glVertex3f(-0.59,1,-0.59);
-			glVertex3f( 0.00,1,-0.89);
+			glVertex3f( 0.00f, 1.00f,-0.89f);
+			glVertex3f( 0.59f, 1.00f,-0.59f);
+			glVertex3f( 0.59f, 1.00f,-0.59f);
+			glVertex3f( 0.89f, 1.00f, 0.00f);
+			glVertex3f( 0.89f, 1.00f, 0.00f);
+			glVertex3f( 0.59f, 1.00f, 0.59f);
+			glVertex3f( 0.59f, 1.00f, 0.59f);
+			glVertex3f( 0.00f, 1.00f, 0.89f);
+			glVertex3f( 0.00f, 1.00f, 0.89f);
+			glVertex3f(-0.59f, 1.00f, 0.59f);
+			glVertex3f(-0.59f, 1.00f, 0.59f);
+			glVertex3f(-0.89f, 1.00f, 0.00f);
+			glVertex3f(-0.89f, 1.00f, 0.00f);
+			glVertex3f(-0.59f, 1.00f,-0.59f);
+			glVertex3f(-0.59f, 1.00f,-0.59f);
+			glVertex3f( 0.00f, 1.00f,-0.89f);
 
-			glVertex3f( 0.00,-1,-0.89);
-			glVertex3f( 0.00, 1,-0.89);
+			glVertex3f( 0.00f,-1.00f,-0.89f);
+			glVertex3f( 0.00f, 1.00f,-0.89f);
 
-			glVertex3f( 0.59,-1,-0.59);
-			glVertex3f( 0.59, 1,-0.59);
+			glVertex3f( 0.59f,-1.00f,-0.59f);
+			glVertex3f( 0.59f, 1.00f,-0.59f);
 
-			glVertex3f( 0.89,-1, 0.00);
-			glVertex3f( 0.89, 1, 0.00);
+			glVertex3f( 0.89f,-1.00f, 0.00f);
+			glVertex3f( 0.89f, 1.00f, 0.00f);
 
-			glVertex3f( 0.59,-1, 0.59);
-			glVertex3f( 0.59, 1, 0.59);
+			glVertex3f( 0.59f,-1.00f, 0.59f);
+			glVertex3f( 0.59f, 1.00f, 0.59f);
 
-			glVertex3f( 0.00,-1, 0.89);
-			glVertex3f( 0.00, 1, 0.89);
+			glVertex3f( 0.00f,-1.00f, 0.89f);
+			glVertex3f( 0.00f, 1.00f, 0.89f);
 
-			glVertex3f(-0.59,-1, 0.59);
-			glVertex3f(-0.59, 1, 0.59);
+			glVertex3f(-0.59f,-1.00f, 0.59f);
+			glVertex3f(-0.59f, 1.00f, 0.59f);
 
-			glVertex3f(-0.89,-1, 0.00);
-			glVertex3f(-0.89, 1, 0.00);
+			glVertex3f(-0.89f,-1.00f, 0.00f);
+			glVertex3f(-0.89f, 1.00f, 0.00f);
 
-			glVertex3f(-0.59,-1,-0.59);
-			glVertex3f(-0.59, 1,-0.59);
+			glVertex3f(-0.59f,-1.00f,-0.59f);
+			glVertex3f(-0.59f, 1.00f,-0.59f);
 		glEnd();
 	}
 	glBegin(GL_LINES);
@@ -947,12 +947,12 @@ int  CheckNeighbor(int x, int y, int z, bool checkStairs)
 
 void DrawGrid()
 {
-	GLfloat xoff = Size.X;
-	GLfloat yoff = Size.Y;
-	GLfloat zoff = Size.Z;
+	GLfloat xoff = (GLfloat)Size.X;
+	GLfloat yoff = (GLfloat)Size.Y;
+	GLfloat zoff = (GLfloat)Size.Z;
 
-	Real tx = floor(rotx) * 3.1415926536 / 180;
-	Real ty = floor(roty) * 3.1415926536 / 180;
+	Real tx = floor(rotx) * 3.1415926536f / 180.0f;
+	Real ty = floor(roty) * 3.1415926536f / 180.0f;
 
 	Mat4 m1 = Mat4(
 		1,    0,       0,   0,
@@ -1089,7 +1089,7 @@ void DrawGrid()
 
 					if((i==3)&&(j==1))
 					{
-						l=l * 1.00001; 
+						l=l * 1.00001f; 
 					}
 
 					if((l<0.1)&&(Cells[j].Y!=Cells[i].Y)&&(len(celli_a-cellj_a)>1))
@@ -1131,7 +1131,7 @@ void DrawGrid()
 
 					if((i==3)&&(j==1))
 					{
-						l=l * 1.00001; 
+						l=l * 1.00001f; 
 					}
 
 					if((l<0.25)&&(Cells[j].Y!=Cells[i].Y))
@@ -1168,34 +1168,34 @@ void DrawGrid()
 			glEnable(GL_OCCLUSION_TEST_HP);
 			// render bounding geometry
 
-			int x = Cells[i].X*2-xoff;
-			int y = Cells[i].Y*2-yoff;
-			int z = zoff-Cells[i].Z*2;
+			GLfloat x = Cells[i].X*2-xoff;
+			GLfloat y = Cells[i].Y*2-yoff;
+			GLfloat z = zoff-Cells[i].Z*2;
 
 			glPopMatrix();
 			glPushMatrix();
 			glTranslatef(x,y,z);						
 			glBegin(GL_QUADS);
-				glVertex3f( 0.0,1.02,-0.9);
-				glVertex3f( 0.9,1.02,-0.6);
-				glVertex3f( 0.9,1.02, 0.00);
-				glVertex3f( 0.0,1.02, 0.00);
+				glVertex3f( 0.0f,1.02f,-0.9f);
+				glVertex3f( 0.9f,1.02f,-0.6f);
+				glVertex3f( 0.9f,1.02f, 0.00f);
+				glVertex3f( 0.0f,1.02f, 0.00f);
 
 
-				glVertex3f( 0.9,1.02, 0.0);
-				glVertex3f( 0.6,1.02, 0.6);
-				glVertex3f( 0.0,1.02, 0.9);
-				glVertex3f( 0.0,1.02, 0.0);
+				glVertex3f( 0.9f,1.02f, 0.0f);
+				glVertex3f( 0.6f,1.02f, 0.6f);
+				glVertex3f( 0.0f,1.02f, 0.9f);
+				glVertex3f( 0.0f,1.02f, 0.0f);
 
-				glVertex3f( 0.0,1.02, 0.9);
-				glVertex3f(-0.6,1.02, 0.6);
-				glVertex3f(-0.9,1.02, 0.0);
-				glVertex3f( 0.0,1.02, 0.0);
+				glVertex3f( 0.0f,1.02f, 0.9f);
+				glVertex3f(-0.6f,1.02f, 0.6f);
+				glVertex3f(-0.9f,1.02f, 0.0f);
+				glVertex3f( 0.0f,1.02f, 0.0f);
 
-				glVertex3f(-0.9,1.02, 0.0);
-				glVertex3f(-0.6,1.02,-0.6);
-				glVertex3f( 0.0,1.02,-0.9);
-				glVertex3f( 0.0,1.02, 0.0);
+				glVertex3f(-0.9f,1.02f, 0.0f);
+				glVertex3f(-0.6f,1.02f,-0.6f);
+				glVertex3f( 0.0f,1.02f,-0.9f);
+				glVertex3f( 0.0f,1.02f, 0.0f);
 			glEnd();
 
 			// disable occlusion test
@@ -1221,40 +1221,40 @@ void DrawGrid()
 			glEnable(GL_OCCLUSION_TEST_HP);
 			// render bounding geometry
 
-			int x = Cells[i].X*2-xoff;
-			int y = Cells[i].Y*2-yoff;
-			int z = zoff-Cells[i].Z*2;
+			GLfloat x = Cells[i].X*2-xoff;
+			GLfloat y = Cells[i].Y*2-yoff;
+			GLfloat z = zoff-Cells[i].Z*2;
 
 			glPopMatrix();
 			glPushMatrix();
 			glTranslatef(x,y,z);						
 			glBegin(GL_QUADS);
-				glVertex3f(-0.95,1.00,-0.95);
-				glVertex3f(-0.95,1.00, 0.95);
-				glVertex3f( 0.95,1.00, 0.95);
-				glVertex3f( 0.95,1.00,-0.95);
-				glVertex3f(-0.95,-1.00,-0.95);
-				glVertex3f(-0.95,-1.00, 0.95);
-				glVertex3f( 0.95,-1.00, 0.95);
-				glVertex3f( 0.95,-1.00,-0.95);
+				glVertex3f(-0.95f,1.00f,-0.95f);
+				glVertex3f(-0.95f,1.00f, 0.95f);
+				glVertex3f( 0.95f,1.00f, 0.95f);
+				glVertex3f( 0.95f,1.00f,-0.95f);
+				glVertex3f(-0.95f,-1.00f,-0.95f);
+				glVertex3f(-0.95f,-1.00f, 0.95f);
+				glVertex3f( 0.95f,-1.00f, 0.95f);
+				glVertex3f( 0.95f,-1.00f,-0.95f);
 
-				glVertex3f(-0.95,-0.95,1.00);
-				glVertex3f(-0.95, 0.95,1.00);
-				glVertex3f( 0.95, 0.95,1.00);
-				glVertex3f( 0.95,-0.95,1.00);
-				glVertex3f(-0.95,-0.95,-1.00);
-				glVertex3f(-0.95, 0.95,-1.00);
-				glVertex3f( 0.95, 0.95,-1.00);
-				glVertex3f( 0.95,-0.95,-1.00);
+				glVertex3f(-0.95f,-0.95f,1.00f);
+				glVertex3f(-0.95f, 0.95f,1.00f);
+				glVertex3f( 0.95f, 0.95f,1.00f);
+				glVertex3f( 0.95f,-0.95f,1.00f);
+				glVertex3f(-0.95f,-0.95f,-1.00f);
+				glVertex3f(-0.95f, 0.95f,-1.00f);
+				glVertex3f( 0.95f, 0.95f,-1.00f);
+				glVertex3f( 0.95f,-0.95f,-1.00f);
 
-				glVertex3f(1.00,-0.95,-0.95);
-				glVertex3f(1.00,-0.95, 0.95);
-				glVertex3f(1.00, 0.95, 0.95);
-				glVertex3f(1.00, 0.95,-0.95);
-				glVertex3f(-1.00,-0.95,-0.95);
-				glVertex3f(-1.00,-0.95, 0.95);
-				glVertex3f(-1.00, 0.95, 0.95);
-				glVertex3f(-1.00, 0.95,-0.95);
+				glVertex3f(1.00f,-0.95f,-0.95f);
+				glVertex3f(1.00f,-0.95f, 0.95f);
+				glVertex3f(1.00f, 0.95f, 0.95f);
+				glVertex3f(1.00f, 0.95f,-0.95f);
+				glVertex3f(-1.00f,-0.95f,-0.95f);
+				glVertex3f(-1.00f,-0.95f, 0.95f);
+				glVertex3f(-1.00f, 0.95f, 0.95f);
+				glVertex3f(-1.00f, 0.95f,-0.95f);
 			glEnd();
 
 			// disable occlusion test
@@ -1513,20 +1513,20 @@ void Draw (void)
 		{
 			switch(Currentpos.D)
 			{
-			case 0: DrawPlayer(Currentpos.X,         Currentpos.Y+playprog-0.5,Currentpos.Z-playprog,Currentpos.D); break;
-			case 1: DrawPlayer(Currentpos.X-playprog,Currentpos.Y+playprog-0.5,Currentpos.Z,         Currentpos.D); break;
-			case 2: DrawPlayer(Currentpos.X,         Currentpos.Y+playprog-0.5,Currentpos.Z+playprog,Currentpos.D); break;
-			case 3: DrawPlayer(Currentpos.X+playprog,Currentpos.Y+playprog-0.5,Currentpos.Z,         Currentpos.D); break;
+			case 0: DrawPlayer(Currentpos.X,         Currentpos.Y+playprog-0.5f,Currentpos.Z-playprog,Currentpos.D); break;
+			case 1: DrawPlayer(Currentpos.X-playprog,Currentpos.Y+playprog-0.5f,Currentpos.Z,         Currentpos.D); break;
+			case 2: DrawPlayer(Currentpos.X,         Currentpos.Y+playprog-0.5f,Currentpos.Z+playprog,Currentpos.D); break;
+			case 3: DrawPlayer(Currentpos.X+playprog,Currentpos.Y+playprog-0.5f,Currentpos.Z,         Currentpos.D); break;
 			}
 		}
 		else
 		{
 			switch(Currentpos.D)
 			{
-			case 0: DrawPlayer(Currentpos.X,         Currentpos.Y-playprog-0.5,Currentpos.Z-playprog,Currentpos.D); break;
-			case 1: DrawPlayer(Currentpos.X-playprog,Currentpos.Y-playprog-0.5,Currentpos.Z,         Currentpos.D); break;
-			case 2: DrawPlayer(Currentpos.X,         Currentpos.Y-playprog-0.5,Currentpos.Z+playprog,Currentpos.D); break;
-			case 3: DrawPlayer(Currentpos.X+playprog,Currentpos.Y-playprog-0.5,Currentpos.Z,         Currentpos.D); break;
+			case 0: DrawPlayer(Currentpos.X,         Currentpos.Y-playprog-0.5f,Currentpos.Z-playprog,Currentpos.D); break;
+			case 1: DrawPlayer(Currentpos.X-playprog,Currentpos.Y-playprog-0.5f,Currentpos.Z,         Currentpos.D); break;
+			case 2: DrawPlayer(Currentpos.X,         Currentpos.Y-playprog-0.5f,Currentpos.Z+playprog,Currentpos.D); break;
+			case 3: DrawPlayer(Currentpos.X+playprog,Currentpos.Y-playprog-0.5f,Currentpos.Z,         Currentpos.D); break;
 			}
 		}
 	}
@@ -1541,20 +1541,20 @@ void Draw (void)
 			{
 				switch(Currentpos.D)
 				{
-				case 0: DrawPlayer(Currentpos.X,         Currentpos.Y+playprog-0.5,Currentpos.Z-playprog,Currentpos.D); break;
-				case 1: DrawPlayer(Currentpos.X-playprog,Currentpos.Y+playprog-0.5,Currentpos.Z,         Currentpos.D); break;
-				case 2: DrawPlayer(Currentpos.X,         Currentpos.Y+playprog-0.5,Currentpos.Z+playprog,Currentpos.D); break;
-				case 3: DrawPlayer(Currentpos.X+playprog,Currentpos.Y+playprog-0.5,Currentpos.Z,         Currentpos.D); break;
+				case 0: DrawPlayer(Currentpos.X,         Currentpos.Y+playprog-0.5f,Currentpos.Z-playprog,Currentpos.D); break;
+				case 1: DrawPlayer(Currentpos.X-playprog,Currentpos.Y+playprog-0.5f,Currentpos.Z,         Currentpos.D); break;
+				case 2: DrawPlayer(Currentpos.X,         Currentpos.Y+playprog-0.5f,Currentpos.Z+playprog,Currentpos.D); break;
+				case 3: DrawPlayer(Currentpos.X+playprog,Currentpos.Y+playprog-0.5f,Currentpos.Z,         Currentpos.D); break;
 				}
 			}
 			else
 			{
 				switch(Currentpos.D)
 				{
-				case 0: DrawPlayer(Currentpos.X,         Currentpos.Y-playprog-0.5,Currentpos.Z-playprog,Currentpos.D); break;
-				case 1: DrawPlayer(Currentpos.X-playprog,Currentpos.Y-playprog-0.5,Currentpos.Z,         Currentpos.D); break;
-				case 2: DrawPlayer(Currentpos.X,         Currentpos.Y-playprog-0.5,Currentpos.Z+playprog,Currentpos.D); break;
-				case 3: DrawPlayer(Currentpos.X+playprog,Currentpos.Y-playprog-0.5,Currentpos.Z,         Currentpos.D); break;
+				case 0: DrawPlayer(Currentpos.X,         Currentpos.Y-playprog-0.5f,Currentpos.Z-playprog,Currentpos.D); break;
+				case 1: DrawPlayer(Currentpos.X-playprog,Currentpos.Y-playprog-0.5f,Currentpos.Z,         Currentpos.D); break;
+				case 2: DrawPlayer(Currentpos.X,         Currentpos.Y-playprog-0.5f,Currentpos.Z+playprog,Currentpos.D); break;
+				case 3: DrawPlayer(Currentpos.X+playprog,Currentpos.Y-playprog-0.5f,Currentpos.Z,         Currentpos.D); break;
 				}
 			}
 		}
@@ -1590,20 +1590,20 @@ void Draw (void)
 			{
 				switch(Currentpos.D)
 				{
-				case 0: DrawPlayer(Currentpos.X,         Currentpos.Y+playprog-0.5,Currentpos.Z-playprog,Currentpos.D); break;
-				case 1: DrawPlayer(Currentpos.X-playprog,Currentpos.Y+playprog-0.5,Currentpos.Z,         Currentpos.D); break;
-				case 2: DrawPlayer(Currentpos.X,         Currentpos.Y+playprog-0.5,Currentpos.Z+playprog,Currentpos.D); break;
-				case 3: DrawPlayer(Currentpos.X+playprog,Currentpos.Y+playprog-0.5,Currentpos.Z,         Currentpos.D); break;
+				case 0: DrawPlayer(Currentpos.X,         Currentpos.Y+playprog-0.5f,Currentpos.Z-playprog,Currentpos.D); break;
+				case 1: DrawPlayer(Currentpos.X-playprog,Currentpos.Y+playprog-0.5f,Currentpos.Z,         Currentpos.D); break;
+				case 2: DrawPlayer(Currentpos.X,         Currentpos.Y+playprog-0.5f,Currentpos.Z+playprog,Currentpos.D); break;
+				case 3: DrawPlayer(Currentpos.X+playprog,Currentpos.Y+playprog-0.5f,Currentpos.Z,         Currentpos.D); break;
 				}
 			}
 			else
 			{
 				switch(Currentpos.D)
 				{
-				case 0: DrawPlayer(Currentpos.X,         Currentpos.Y-playprog+0.5,Currentpos.Z-playprog,Currentpos.D); break;
-				case 1: DrawPlayer(Currentpos.X-playprog,Currentpos.Y-playprog+0.5,Currentpos.Z,         Currentpos.D); break;
-				case 2: DrawPlayer(Currentpos.X,         Currentpos.Y-playprog+0.5,Currentpos.Z+playprog,Currentpos.D); break;
-				case 3: DrawPlayer(Currentpos.X+playprog,Currentpos.Y-playprog+0.5,Currentpos.Z,         Currentpos.D); break;
+				case 0: DrawPlayer(Currentpos.X,         Currentpos.Y-playprog+0.5f,Currentpos.Z-playprog,Currentpos.D); break;
+				case 1: DrawPlayer(Currentpos.X-playprog,Currentpos.Y-playprog+0.5f,Currentpos.Z,         Currentpos.D); break;
+				case 2: DrawPlayer(Currentpos.X,         Currentpos.Y-playprog+0.5f,Currentpos.Z+playprog,Currentpos.D); break;
+				case 3: DrawPlayer(Currentpos.X+playprog,Currentpos.Y-playprog+0.5f,Currentpos.Z,         Currentpos.D); break;
 				}
 			}
 		}
@@ -1661,7 +1661,7 @@ void Update (DWORD milliseconds)								// Perform Motion Updates Here
 	if(GetKeyState(VK_UP)&0x8000)    rotx-=milliseconds * 0.05f;	
 	if(GetKeyState(VK_DOWN)&0x8000)  rotx+=milliseconds * 0.05f;	
 
-	if(rotx<0.1) rotx=0.1;
+	if(rotx<0.1f) rotx=0.1f;
 	if(rotx<CameraMin.X) rotx = CameraMin.X;
 	if(rotx>CameraMax.X) rotx = CameraMax.X;
 
@@ -1692,8 +1692,8 @@ void Update (DWORD milliseconds)								// Perform Motion Updates Here
 
 	if(falling||(fallTimes>0))
 	{
-		Real tx = floor(rotx) * 3.1415926536 / 180;
-		Real ty = floor(roty) * 3.1415926536 / 180;
+		Real tx = floor(rotx) * 3.1415926536f / 180.0f;
+		Real ty = floor(roty) * 3.1415926536f / 180.0f;
 
 		Mat4 m1 = Mat4(
 			1,    0,       0,   0,
@@ -1933,7 +1933,7 @@ void MouseMove(POINT newPos) // newPos contains relative coordinates!
 			rotx += ydiff * 0.25f;
 			roty += xdiff * 0.25f;
 
-			if(rotx<0.1) rotx=0.1;
+			if(rotx<0.1f) rotx=0.1f;
 			if(rotx<CameraMin.X) rotx = CameraMin.X;
 			if(rotx>CameraMax.X) rotx = CameraMax.X;
 
