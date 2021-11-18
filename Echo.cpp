@@ -23,11 +23,10 @@
  *		Visit My Site At nehe.gamedev.net
  */
 
-#include <windows.h>		
-#include <gl/gl.h>			
-#include <gl/glu.h>			
-#include <gl/wglext.h>		//WGL extensions
-#include <gl/glext.h>		//GL extensions
+#include <windows.h>
+#include <gl/gl.h>
+#include "gl/wglext.h"
+#include "gl/glext.h"
 
 #include <math.h>
 #include "Level.h"
@@ -1928,19 +1927,19 @@ void MouseMove(POINT newPos) // newPos contains relative coordinates!
 		int xdiff = newPos.x - cPos.x;
 		int ydiff = newPos.y - cPos.y;
 
-		if(xdiff || ydiff)
+		if (xdiff || ydiff)
 		{
 			rotx += ydiff * 0.25f;
 			roty += xdiff * 0.25f;
 
-			if(rotx<0.1f) rotx=0.1f;
-			if(rotx<CameraMin.X) rotx = CameraMin.X;
-			if(rotx>CameraMax.X) rotx = CameraMax.X;
+			if (rotx < 0.1f) rotx = 0.1f;
+			if (rotx < CameraMin.X) rotx = CameraMin.X;
+			if (rotx > CameraMax.X) rotx = CameraMax.X;
 
 			if((CameraMin.Y!=0)||(CameraMax.Y!=360))
 			{
-				if(roty<CameraMin.Y) roty = CameraMin.Y;
-				if(roty>CameraMax.Y) roty = CameraMax.Y;
+				if (roty < CameraMin.Y) roty = CameraMin.Y;
+				if (roty > CameraMax.Y) roty = CameraMax.Y;
 			}
 
 			SetCursorPos(cPos.x,cPos.y);

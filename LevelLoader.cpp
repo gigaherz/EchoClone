@@ -15,9 +15,7 @@
 //with this program; if not, write to the Free Software Foundation, Inc.,
 //51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 #include <stdio.h>
-#include <windows.h>		
-#include <gl\gl.h>			
-#include <gl\glu.h>			
+#include <windows.h>
 #include "Level.h"
 
 char	LevelName[64];
@@ -25,8 +23,8 @@ char	Author[64];
 Vector	Size;
 Start   Startpos;
 Vector  Camera;
-Vector  CameraMin;
-Vector  CameraMax;
+Vector  CameraMin = { -89, 0};
+Vector  CameraMax = { 89, 360};
 int		Grid[16][16][16];
 int		GridNumber[16][16][16];
 int     GridNeighbor[16][16][16][6];

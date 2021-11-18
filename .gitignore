@@ -1,0 +1,16 @@
+/.vs
+/Debug
+/Release
+*.exe
+*.pdb
+*.dll
+*.db
+*.sdf
+*.user
+*.ncb
+*.suo
+*.zip
+*.rar
+*.ilk
+UpgradeLog*.htm
+UpgradeLog*.html
